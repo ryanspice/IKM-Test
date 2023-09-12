@@ -1,0 +1,122 @@
+[
+  {
+    "id": 15,
+    "category": "OpenID",
+    "questionText": "What is the dual purpose served by the OpenID return_to parameter?",
+    "options": [
+      "The URL to return the user to after authentication",
+      "The URL to send error messages to",
+      "The URL to fetch user information from",
+      "The URL to log the user out from"
+    ],
+    "correctAnswer": "V2hhdCBpcyB0aGUgZHVhbCBwdXJwb3NlIHNlcnZlZCBieSB0aGUgT3BlbklEIHJldHVybl90byBwYXJhbWV0ZXI/"
+  },
+  {
+    "id": 73,
+    "category": "OpenID",
+    "questionText": "What is another name for the OpenID 'Discovery' process, and what is its primary function?",
+    "options": [
+      "A process to discover OpenID providers",
+      "A process to discover user information",
+      "A process to discover available services",
+      "None of the above"
+    ],
+    "correctAnswer": "V2hhdCBpcyBhbm90aGVyIG5hbWUgZm9yIHRoZSBPcGVuSUQgJ0Rpc2NvdmVyeScgcHJvY2VzcywgaW4gd2hhdCBpcyBpdHMgcHJpbWFyeSBmdW5jdGlvbj8="
+  },
+  {
+    "id": 74,
+    "category": "OpenID",
+    "questionText": "How does OpenID 'Dynamic Client Registration' simplify client management?",
+    "options": [
+      "A process to register new OpenID clients dynamically",
+      "A process to update client information",
+      "A process to delete client information",
+      "None of the above"
+    ],
+    "correctAnswer": "SG93IGRvZXMgT3BlbklEICdEeW5hbWljIENsaWVudCBSZWdpc3RyYXRpb24nIHNpbXBsaWZ5IGNsaWVudCBtYW5hZ2VtZW50Pw=="
+  },
+  {
+    "id": 11,
+    "category": "OpenID",
+    "questionText": "How does OpenID differ from traditional authentication systems in its primary use case?",
+    "options": [
+      "Data encryption",
+      "Single sign-on",
+      "Two-factor authentication",
+      "API authorization"
+    ],
+    "correctAnswer": "SG93IGRvZXMgT3BlbklEIGRpZmZlciBmcm9tIHRyYWRpdGlvbmFsIGF1dGhlbnRpY2F0aW9uIHN5c3RlbXMgaW4gaXRzIHByaW1hcnkgdXNlIGNhc2U/"
+  },
+  {
+    "id": 33,
+    "category": "OpenID",
+    "questionText": "On which protocol is OpenID Connect built, and what does it add to basic OpenID?",
+    "options": [
+      "Two-factor authentication",
+      "JSON Web Tokens (JWT)",
+      "SAML support",
+      "OAuth 1.0 support"
+    ],
+    "correctAnswer": "T24gd2hpY2ggcHJvdG9jb2wgaXMgT3BlbklEIENvbm5lY3QgYnVpbHQsIGFuZCB3aGF0IGRvZXMgaXQgYWRkIHRvIGJhc2ljIE9wZW5JRD8="
+  },
+  {
+    "id": 14,
+    "category": "OpenID",
+    "questionText": "Can OpenID and OAuth be used in tandem, and if so, how?",
+    "options": [
+      "OpenID is for authentication, OAuth is for authorization",
+      "OpenID is for authorization, OAuth is for authentication",
+      "OpenID uses XML, OAuth uses JSON",
+      "There is no difference"
+    ],
+    "correctAnswer": "Q2FuIE9wZW5JRCBhbmQgT0F1dGggYmUgdXNlZCBpbiB0YW5kZW0sIGFuZCBpZiBzbywgaG93Pw=="
+  },
+  {
+    "id": 31,
+    "category": "OpenID",
+    "questionText": "Is the OpenID realm parameter optional, and what does it specify if provided?",
+    "options": [
+      "The authentication level required",
+      "The domain for which the authentication is valid",
+      "The encryption method used",
+      "The API endpoint for authentication"
+    ],
+    "correctAnswer": "SXMgdGhlIE9wZW5JRCByZWFsbSBwYXJhbWV0ZXIgb3B0aW9uYWwsIGFuZCB3aGF0IGRvZXMgaXQgc3BlY2lmeSBpZiBwcm92aWRlZD8="
+  },
+  {
+    "id": 53,
+    "category": "OpenID",
+    "questionText": "What flexibility does the OpenID Hybrid Flow offer in authentication and authorization?",
+    "options": [
+      "A combination of Authorization Code and Implicit Flows",
+      "A deprecated OpenID flow",
+      "A flow that uses both OpenID and OAuth",
+      "None of the above"
+    ],
+    "correctAnswer": "V2hhdCBmbGV4aWJpbGl0eSBkb2VzIHRoZSBPcGVuSUQgSHlicmlkIEZsb3cgb2ZmZXIgaW4gYXV0aGVudGljYXRpb24gYW5kIGF1dGhvcml6YXRpb24/"
+  },
+  {
+    "id": 12,
+    "category": "OpenID",
+    "questionText": "What is the relationship between OpenID Connect and the protocol on which OpenID relies?",
+    "options": [
+      "SAML",
+      "OAuth",
+      "LDAP",
+      "Kerberos"
+    ],
+    "correctAnswer": "V2hhdCBpcyB0aGUgcmVsYXRpb25zaGlwIGJldHdlZW4gT3BlbklEIENvbm5lY3QgYW5kIHRoZSBwcm90b2NvbCBvbiB3aGljaCBPcGVuSUQgcmVsaWVzPw=="
+  },
+  {
+    "id": 62,
+    "category": "OpenID",
+    "questionText": "How is the OpenID 'Userinfo Endpoint' usually protected?",
+    "options": [
+      "An endpoint to retrieve user information",
+      "An endpoint to update user information",
+      "An endpoint to delete user information",
+      "None of the above"
+    ],
+    "correctAnswer": "SG93IGlzIHRoZSBPcGVuSUQgJ1VzZXJpbmZvIEVuZHBvaW50JyB1c3VhbGx5IHByb3RlY3RlZD8="
+  }
+]

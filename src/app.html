@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>IKM skills test</title>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<!-- Required styles for Material Web -->
+	<link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+
+	<meta name="viewport" content="width=device-width" />
+	%sveltekit.head%
+	<style>
+		body,
+		html {
+			font-family: 'Inter', sans-serif;
+			font: 'Inter', sans-serif;
+			height: 100%;
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.mdc-card {
+			width: 400px;
+			min-height: 230px;
+			height: auto;
+			padding: 16px;
+			box-sizing: border-box;
+		}
+
+		.mdc-button {
+			margin: 8px;
+		}
+
+		.mdc-list-item {
+			padding: 1rem;
+		}
+
+		.status-bar {
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			background-color: #f1f1f1;
+			padding: 8px;
+			display: flex;
+			justify-content: flex-end;
+		}
+
+
+		.top-bar {
+			position: fixed;
+			top: 0;
+			width: 100%;
+			background-color: #6200ea;
+			color: white;
+			padding: 12px;
+			text-align: center;
+			z-index: 2;
+		}
+
+		.section-list {
+			position: fixed;
+			bottom: 15%;
+			/* top: 1128px; */
+			/* Height of the top bar */
+			/* width: 100%; */
+			background-color: #f1f1f1;
+			padding: 8px;
+			display: flex;
+			justify-content: center;
+			z-index: 1;
+		}
+
+		.section-item {
+			color: white;
+			padding: 4px 8px;
+			border-radius: 4px;
+			margin-right: 1rem;
+			margin-left: 1rem;
+		}
+
+		.section-item.current {
+			background-color: #6200eaa7;
+			/* font-weight: bold; */
+			font-size: 110%;
+			margin-right: 1rem;
+			margin-left: 1rem;
+		}
+
+
+		/* Existing styles... */
+
+		/* Button Container */
+		.mdc-list {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+
+		/* Buttons */
+		.mdc-button {
+			flex: 1 1 auto;
+			min-width: 100px;
+			/* Minimum width you want for your buttons */
+			margin: 5px;
+			padding: 0.1rem;
+			white-space: normal;
+			/* Override the nowrap */
+			text-align: center;
+			height: auto;
+		}
+
+		.mdc-button:hover {
+			transform: scale(1.1);
+			transition: cubic-bezier(1, 0, 0, 1);
+		}
+	</style>
+
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
+<!-- Required Material Web JavaScript library -->
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<!-- Instantiate single textfield component rendered in the document -->
+<script>
+
+
+</script>
+
+</html>

@@ -1,0 +1,1327 @@
+[
+  {
+    "id": 0,
+    "category": "JavaScript",
+    "questionText": "Ready?",
+    "options": [
+      "Start"
+    ],
+    "correctAnswer": "226f626a65637422",
+    "didYouKnow": {
+      "title": "Welcome to the quiz!",
+      "paragraph": "This quiz is designed to test your knowledge of web development. It covers a wide range of topics, including HTML, CSS, JavaScript, accessibility, and OpenID. Good luck!"
+    }
+  },
+  {
+    "id": 1,
+    "category": "JavaScript",
+    "questionText": "What will console.log(typeof null) output?",
+    "options": [
+      "\"object\"",
+      "\"null\"",
+      "\"undefined\"",
+      "\"boolean\""
+    ],
+    "correctAnswer": "226f626a65637422",
+    "didYouKnow": {
+      "title": "Did you know that typeof null is an acknowledged bug in JavaScript?",
+      "paragraph": "The typeof operator in JavaScript returns \"object\" for null values, which is considered a bug in the language. This is because, in JavaScript's first implementation, JavaScript values were represented as a type tag and a value, with the type tag for objects being 0, and null being represented as the NULL pointer (also 0). This is why typeof null returns \"object\"."
+    }
+  },
+  {
+    "id": 2,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of JavaScript's bind method?",
+    "options": [
+      "To bind an event to an element",
+      "To set the this value in a function",
+      "To bind data to a variable",
+      "None of the above"
+    ],
+    "correctAnswer": "546f207365742074686520746869732076616c756520696e20612066756e6374696f6e",
+    "didYouKnow": {
+      "title": "Did you know that bind() was introduced in ECMAScript 5?",
+      "paragraph": "The bind() method was introduced in ECMAScript 5 and is not available in older versions of JavaScript. It allows you to set the 'this' value in a function, making it particularly useful for callbacks and event handlers."
+    }
+  },
+  {
+    "id": 3,
+    "category": "JavaScript",
+    "questionText": "What is a closure?",
+    "options": [
+      "A function defined within another function",
+      "A function that returns an object",
+      "A function that takes another function as an argument",
+      "A function that has access to its own scope, the outer function's scope, and the global scope"
+    ],
+    "correctAnswer": "412066756e6374696f6e2074686174206861732061636365737320746f20697473206f776e2073636f70652c20746865206f757465722066756e6374696f6e27732073636f70652c20616e642074686520676c6f62616c2073636f7065",
+    "didYouKnow": {
+      "title": "Did you know that closures are a fundamental concept in functional programming?",
+      "paragraph": "Closures are a key concept in functional programming languages, not just JavaScript. They allow for the creation of private variables and are crucial for techniques like currying."
+    }
+  },
+  {
+    "id": 4,
+    "category": "JavaScript",
+    "questionText": "What is the output of console.log(0.1 + 0.2 === 0.3)?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "NaN"
+    ],
+    "correctAnswer": "66616c7365",
+    "didYouKnow": {
+      "title": "Did you know that floating-point arithmetic can lead to unexpected results?",
+      "paragraph": "The reason 0.1 + 0.2 !== 0.3 in JavaScript is due to the way floating-point numbers are represented in binary. This is not a JavaScript-specific issue but a limitation of the IEEE 754 standard used in the representation of floating-point numbers."
+    }
+  },
+  {
+    "id": 5,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of the async keyword?",
+    "options": [
+      "To pause the execution of a function",
+      "To make a function return a Promise",
+      "To execute a function asynchronously",
+      "To define a generator function"
+    ],
+    "correctAnswer": "546f206d616b6520612066756e6374696f6e2072657475726e20612050726f6d697365",
+    "didYouKnow": {
+      "title": "Did you know that the async/await syntax was introduced in ECMAScript 2017?",
+      "paragraph": "The async/await syntax was introduced to make working with asynchronous code easier. It allows you to write asynchronous code in a more synchronous style, making it easier to read and maintain."
+    }
+  },
+  {
+    "id": 6,
+    "category": "HTML5",
+    "questionText": "Which tag is used to embed video files in HTML5?",
+    "options": [
+      "<embed>",
+      "<video>",
+      "<media>",
+      "<object>"
+    ],
+    "correctAnswer": "3c766964656f3e",
+    "didYouKnow": {
+      "title": "Did you know that the <video> tag was introduced in HTML5?",
+      "paragraph": "Before the introduction of HTML5, videos could only be embedded in web pages using plugins like Flash. The <video> tag allows for native video playback in modern web browsers, making it easier to include multimedia content."
+    }
+  },
+  {
+    "id": 7,
+    "category": "HTML5",
+    "questionText": "What is the purpose of HTML5's localStorage?",
+    "options": [
+      "To store data on the client side",
+      "To store data on the server side",
+      "To cache files for offline use",
+      "To store session data"
+    ],
+    "correctAnswer": "546f2073746f72652064617461206f6e2074686520636c69656e742073696465",
+    "didYouKnow": {
+      "title": "Did you know that localStorage data persists even after the browser is closed?",
+      "paragraph": "Unlike session storage, which is limited to a single session, data stored in localStorage persists even when the browser is closed and reopened. This makes it useful for storing long-term data directly on the client side."
+    }
+  },
+  {
+    "id": 8,
+    "category": "HTML5",
+    "questionText": "What is the canvas element used for?",
+    "options": [
+      "Embedding multimedia",
+      "Drawing graphics",
+      "Creating forms",
+      "Styling elements"
+    ],
+    "correctAnswer": "44726177696e67206772617068696373",
+    "didYouKnow": {
+      "title": "Did you know that the <canvas> element is often used in web-based games?",
+      "paragraph": "The <canvas> element allows for dynamic rendering of 2D shapes and bitmap images. It is commonly used in web-based games, animations, and data visualizations."
+    }
+  },
+  {
+    "id": 9,
+    "category": "HTML5",
+    "questionText": "Which attribute specifies a fallback content for the <canvas> element?",
+    "options": [
+      "alt",
+      "fallback",
+      "default",
+      "content"
+    ],
+    "correctAnswer": "636f6e74656e74",
+    "didYouKnow": {
+      "title": "Did you know that you can provide fallback content for <canvas>?",
+      "paragraph": "If a browser does not support the <canvas> element, it will display the fallback content specified between the opening and closing <canvas> tags. This ensures that users with older browsers can still access important information."
+    }
+  },
+  {
+    "id": 10,
+    "category": "HTML5",
+    "questionText": "What is the purpose of the nav element?",
+    "options": [
+      "To create a navigation menu",
+      "To navigate to another page",
+      "To define a block of navigation links",
+      "To create a sitemap"
+    ],
+    "correctAnswer": "546f20646566696e65206120626c6f636b206f66206e617669676174696f6e206c696e6b73",
+    "didYouKnow": {
+      "title": "Did you know that the <nav> element is a semantic HTML element?",
+      "paragraph": "The <nav> element is a semantic element in HTML5, which means it conveys meaning about the structure of the content. Using semantic elements like <nav> can improve accessibility and make it easier for search engines to understand your content."
+    }
+  },
+  {
+    "id": 11,
+    "category": "OpenID",
+    "questionText": "What is OpenID primarily used for?",
+    "options": [
+      "Data encryption",
+      "Single sign-on",
+      "Two-factor authentication",
+      "API authorization"
+    ],
+    "correctAnswer": "53696e676c65207369676e2d6f6e",
+    "didYouKnow": {
+      "title": "Did you know that OpenID allows for decentralized authentication?",
+      "paragraph": "Unlike traditional authentication systems that rely on a central authority, OpenID allows users to be authenticated by co-operating sites, known as Relying Parties, using a third-party service. This eliminates the need for webmasters to provide their own ad hoc login systems."
+    }
+  },
+  {
+    "id": 12,
+    "category": "OpenID",
+    "questionText": "Which protocol does OpenID rely on?",
+    "options": [
+      "SAML",
+      "OAuth",
+      "LDAP",
+      "Kerberos"
+    ],
+    "correctAnswer": "4f41757468",
+    "didYouKnow": {
+      "title": "Did you know that OpenID Connect is built on top of OAuth 2.0?",
+      "paragraph": "OpenID Connect is an identity layer that sits on top of the OAuth 2.0 protocol. It allows clients to verify the identity of the user based on the authentication performed by an OAuth 2.0 authorization server."
+    }
+  },
+  {
+    "id": 13,
+    "category": "OpenID",
+    "questionText": "What is an OpenID Provider?",
+    "options": [
+      "A service that stores user credentials",
+      "A service that issues OpenID identifiers",
+      "A library for integrating OpenID",
+      "A user who has an OpenID identifier"
+    ],
+    "correctAnswer": "412073657276696365207468617420697373756573204f70656e4944206964656e74696669657273",
+    "didYouKnow": {
+      "title": "Did you know that popular services like Google and Facebook can act as OpenID Providers?",
+      "paragraph": "Many popular online services act as OpenID Providers, allowing users to log into other websites and applications using their existing credentials. This provides a more seamless user experience and reduces the number of usernames and passwords a user has to remember."
+    }
+  },
+  {
+    "id": 14,
+    "category": "OpenID",
+    "questionText": "What is the main difference between OpenID and OAuth?",
+    "options": [
+      "OpenID is for authentication, OAuth is for authorization",
+      "OpenID is for authorization, OAuth is for authentication",
+      "OpenID uses XML, OAuth uses JSON",
+      "There is no difference"
+    ],
+    "correctAnswer": "4f70656e494420697320666f722061757468656e7469636174696f6e2c204f4175746820697320666f7220617574686f72697a6174696f6e",
+    "didYouKnow": {
+      "title": "Did you know that OpenID and OAuth are often used together?",
+      "paragraph": "While OpenID is used for authentication (proving who you are) and OAuth is used for authorization (granting access to something), the two protocols are often used in tandem. For example, OpenID Connect is an identity layer built on top of OAuth 2.0."
+    }
+  },
+  {
+    "id": 15,
+    "category": "OpenID",
+    "questionText": "What does the OpenID return_to parameter specify?",
+    "options": [
+      "The URL to return the user to after authentication",
+      "The URL to send error messages to",
+      "The URL to fetch user information from",
+      "The URL to log the user out from"
+    ],
+    "correctAnswer": "5468652055524c20746f2072657475726e20746865207573657220746f2061667465722061757468656e7469636174696f6e",
+    "didYouKnow": {
+      "title": "Did you know that the return_to URL can be used for security?",
+      "paragraph": "The return_to URL is not just for user convenience. It can also be used as a security measure to ensure that the user is sent back to the correct website after authentication, reducing the risk of phishing attacks."
+    }
+  },
+  {
+    "id": 16,
+    "category": "Accessibility",
+    "questionText": "What is ARIA?",
+    "options": [
+      "A markup language for accessibility",
+      "A set of attributes to enhance accessibility",
+      "A JavaScript library for accessibility",
+      "A CSS framework for accessibility"
+    ],
+    "correctAnswer": "4120736574206f66206174747269627574657320746f20656e68616e6365206163636573736962696c697479",
+    "didYouKnow": {
+      "title": "Did you know that ARIA stands for Accessible Rich Internet Applications?",
+      "paragraph": "ARIA is a set of attributes that help make web content and web applications more accessible to people with disabilities. It provides additional semantics to help assistive technologies understand the content."
+    }
+  },
+  {
+    "id": 17,
+    "category": "Accessibility",
+    "questionText": "What does WCAG stand for?",
+    "options": [
+      "Web Content Accessibility Guidelines",
+      "Web Component Accessibility Group",
+      "Web Compliance Assessment Grid",
+      "Web Content Assessment Guide"
+    ],
+    "correctAnswer": "57656220436f6e74656e74204163636573736962696c6974792047756964656c696e6573",
+    "didYouKnow": {
+      "title": "Did you know that WCAG has different compliance levels?",
+      "paragraph": "The Web Content Accessibility Guidelines (WCAG) have three levels of compliance: A, AA, and AAA. Each level has a set of criteria that must be met to make web content more accessible to people with disabilities."
+    }
+  },
+  {
+    "id": 18,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the alt attribute in an <img> tag?",
+    "options": [
+      "To provide a tooltip",
+      "To provide a text description for screen readers",
+      "To specify an alternative image",
+      "To define the image dimensions"
+    ],
+    "correctAnswer": "546f2070726f7669646520612074657874206465736372697074696f6e20666f722073637265656e2072656164657273",
+    "didYouKnow": {
+      "title": "Did you know that the alt attribute also benefits SEO?",
+      "paragraph": "While the primary purpose of the alt attribute is to provide a text description for screen readers, it also has SEO benefits. Search engines use the alt text to understand what an image is about, which can help improve your site's ranking in image search results."
+    }
+  },
+  {
+    "id": 19,
+    "category": "Accessibility",
+    "questionText": "What does the tabindex attribute do?",
+    "options": [
+      "Specifies the tab order of an element",
+      "Adds a tab character to the text",
+      "Defines the number of tabs in a tab panel",
+      "None of the above"
+    ],
+    "correctAnswer": "5370656369666965732074686520746162206f72646572206f6620616e20656c656d656e74",
+    "didYouKnow": {
+      "title": "Did you know that tabindex can have negative values?",
+      "paragraph": "The tabindex attribute can take positive, zero, or negative values. A negative value (e.g., tabindex=\"-1\") means that the element is not reachable via sequential keyboard navigation, but could be focused with JavaScript or visually."
+    }
+  },
+  {
+    "id": 20,
+    "category": "Accessibility",
+    "questionText": "What is semantic HTML?",
+    "options": [
+      "HTML that is validated against a schema",
+      "HTML that conveys meaning and structure",
+      "HTML that uses correct syntax",
+      "HTML that uses CSS for styling"
+    ],
+    "correctAnswer": "48544d4c207468617420636f6e76657973206d65616e696e6720616e6420737472756374757265",
+    "didYouKnow": {
+      "title": "Did you know that semantic HTML benefits both accessibility and SEO?",
+      "paragraph": "Using semantic HTML elements like <header>, <footer>, and <article> not only makes your website more accessible to screen readers, but it also helps search engines understand the structure and importance of your content."
+    }
+  },
+  {
+    "id": 21,
+    "category": "JavaScript",
+    "questionText": "What does the Promise.all() method do?",
+    "options": [
+      "Resolves when all promises are resolved",
+      "Resolves when any promise is resolved",
+      "Rejects when any promise is rejected",
+      "Both A and C"
+    ],
+    "correctAnswer": "426f7468204120616e642043",
+    "didYouKnow": {
+      "title": "Did you know that Promise.all() is just one of several Promise combinators?",
+      "paragraph": "In addition to Promise.all(), JavaScript offers other Promise combinators like Promise.race(), Promise.any(), and Promise.allSettled(). Each of these methods provides a different way of aggregating multiple promises."
+    }
+  },
+  {
+    "id": 22,
+    "category": "JavaScript",
+    "questionText": "What is the output of console.log([2] == [2])?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "NaN"
+    ],
+    "correctAnswer": "66616c7365",
+    "didYouKnow": {
+      "title": "Did you know that arrays are objects in JavaScript?",
+      "paragraph": "In JavaScript, arrays are actually objects. When you compare two arrays using the == or === operators, you are comparing their references, not their contents. That's why [2] == [2] returns false."
+    }
+  },
+  {
+    "id": 23,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of the instanceof operator?",
+    "options": [
+      "To check if an object is an instance of a particular class",
+      "To create a new instance of a class",
+      "To check the type of a variable",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20636865636b20696620616e206f626a65637420697320616e20696e7374616e6365206f66206120706172746963756c617220636c617373",
+    "didYouKnow": {
+      "title": "Did you know that instanceof works with custom classes?",
+      "paragraph": "The instanceof operator is not limited to native JavaScript classes like Array or Object. You can also use it to check if an object is an instance of a custom class that you've defined."
+    }
+  },
+  {
+    "id": 24,
+    "category": "JavaScript",
+    "questionText": "What is hoisting in JavaScript?",
+    "options": [
+      "Moving all variable and function declarations to the top of their containing scope",
+      "Lifting the value of a variable to a higher scope",
+      "Raising an error in the code",
+      "None of the above"
+    ],
+    "correctAnswer": "4d6f76696e6720616c6c207661726961626c6520616e642066756e6374696f6e206465636c61726174696f6e7320746f2074686520746f70206f6620746865697220636f6e7461696e696e672073636f7065",
+    "didYouKnow": {
+      "title": "Did you know that hoisting can lead to unexpected behavior?",
+      "paragraph": "Hoisting can sometimes lead to unexpected results, especially if you're not aware of it. For example, if you try to use a variable before declaring it, JavaScript will not throw an error, but the variable will be undefined due to hoisting."
+    }
+  },
+  {
+    "id": 25,
+    "category": "JavaScript",
+    "questionText": "What is the difference between let and const?",
+    "options": [
+      "let is block-scoped; const is function-scoped",
+      "let can be reassigned; const cannot",
+      "let is hoisted; const is not",
+      "There is no difference"
+    ],
+    "correctAnswer": "6c65742063616e20626520726561737369676e65643b20636f6e73742063616e6e6f74",
+    "didYouKnow": {
+      "title": "Did you know that both let and const are block-scoped?",
+      "paragraph": "Unlike the var keyword, which is function-scoped, both let and const are block-scoped. This means they are only accessible within the block in which they are defined."
+    }
+  },
+  {
+    "id": 26,
+    "category": "HTML5",
+    "questionText": "What is the datalist element used for?",
+    "options": [
+      "To create a dropdown list",
+      "To store data attributes",
+      "To provide autocomplete options",
+      "To define metadata"
+    ],
+    "correctAnswer": "546f2070726f76696465206175746f636f6d706c657465206f7074696f6e73",
+    "didYouKnow": {
+      "title": "Did you know that the datalist element can be used with different input types?",
+      "paragraph": "The datalist element is commonly used with text inputs to provide autocomplete suggestions, but it can also be used with other input types like range, color, and date to provide predefined options."
+    }
+  },
+  {
+    "id": 27,
+    "category": "HTML5",
+    "questionText": "What does the required attribute do?",
+    "options": [
+      "Makes a form field mandatory",
+      "Validates the form data",
+      "Sends the form data to the server",
+      "None of the above"
+    ],
+    "correctAnswer": "4d616b6573206120666f726d206669656c64206d616e6461746f7279",
+    "didYouKnow": {
+      "title": "Did you know that the required attribute doesn't replace server-side validation?",
+      "paragraph": "While the required attribute can enforce that a field must be filled out before submitting a form, it doesn't replace the need for server-side validation. Always validate user input on the server to ensure data integrity and security."
+    }
+  },
+  {
+    "id": 28,
+    "category": "HTML5",
+    "questionText": "What is the purpose of the figure and figcaption elements?",
+    "options": [
+      "To create image sliders",
+      "To group an image with its caption",
+      "To create responsive images",
+      "To define image metadata"
+    ],
+    "correctAnswer": "546f2067726f757020616e20696d6167652077697468206974732063617074696f6e",
+    "didYouKnow": {
+      "title": "Did you know that the figure element is not limited to images?",
+      "paragraph": "While commonly used for images, the figure element can also be used to encapsulate other types of content such as code snippets, videos, and charts, along with their captions."
+    }
+  },
+  {
+    "id": 29,
+    "category": "HTML5",
+    "questionText": "What is the meter element used for?",
+    "options": [
+      "To measure the length of content",
+      "To define a scalar measurement",
+      "To create a progress bar",
+      "To create a gauge"
+    ],
+    "correctAnswer": "546f20646566696e652061207363616c6172206d6561737572656d656e74",
+    "didYouKnow": {
+      "title": "Did you know that the meter element has a low, high, and optimum attribute?",
+      "paragraph": "The meter element can have additional attributes like low, high, and optimum to specify what range of values is considered to be a low, high or optimum value for the gauge."
+    }
+  },
+  {
+    "id": 30,
+    "category": "HTML5",
+    "questionText": "What does the sandbox attribute in the iframe do?",
+    "options": [
+      "Resizes the iframe",
+      "Provides extra security restrictions",
+      "Enables autoplay of media",
+      "None of the above"
+    ],
+    "correctAnswer": "50726f7669646573206578747261207365637572697479207265737472696374696f6e73",
+    "didYouKnow": {
+      "title": "Did you know that the sandbox attribute can have different values?",
+      "paragraph": "The sandbox attribute can take different values to enable or disable specific behaviors. For example, 'allow-scripts' would enable JavaScript execution within the sandboxed iframe."
+    }
+  },
+  {
+    "id": 31,
+    "category": "OpenID",
+    "questionText": "What is the OpenID realm parameter?",
+    "options": [
+      "The authentication level required",
+      "The domain for which the authentication is valid",
+      "The encryption method used",
+      "The API endpoint for authentication"
+    ],
+    "correctAnswer": "54686520646f6d61696e20666f72207768696368207468652061757468656e7469636174696f6e2069732076616c6964",
+    "didYouKnow": {
+      "title": "Did you know that the realm parameter is optional?",
+      "paragraph": "The realm parameter in OpenID is optional and is used to specify the domain for which the authentication is valid. If not provided, the default realm is the URL where the request originated."
+    }
+  },
+  {
+    "id": 32,
+    "category": "OpenID",
+    "questionText": "What is an OpenID Relying Party?",
+    "options": [
+      "A service that accepts OpenID logins",
+      "A service that provides OpenID logins",
+      "A user with an OpenID account",
+      "An OpenID certification authority"
+    ],
+    "correctAnswer": "41207365727669636520746861742061636365707473204f70656e4944206c6f67696e73",
+    "didYouKnow": {
+      "title": "Did you know that Relying Parties must be registered?",
+      "paragraph": "Before a service can act as an OpenID Relying Party, it must be registered with the OpenID Provider. This ensures a secure and trusted relationship between the two."
+    }
+  },
+  {
+    "id": 33,
+    "category": "OpenID",
+    "questionText": "What does OpenID Connect add to basic OpenID?",
+    "options": [
+      "Two-factor authentication",
+      "JSON Web Tokens (JWT)",
+      "SAML support",
+      "OAuth 1.0 support"
+    ],
+    "correctAnswer": "4a534f4e2057656220546f6b656e7320284a575429",
+    "didYouKnow": {
+      "title": "Did you know that OpenID Connect is built on top of OAuth 2.0?",
+      "paragraph": "OpenID Connect is an identity layer that sits on top of the OAuth 2.0 protocol. It allows clients to verify the identity of the user and obtain basic profile information."
+    }
+  },
+  {
+    "id": 34,
+    "category": "OpenID",
+    "questionText": "What is the purpose of the OpenID discovery process?",
+    "options": [
+      "To find OpenID providers",
+      "To discover user attributes",
+      "To negotiate encryption methods",
+      "To establish a session"
+    ],
+    "correctAnswer": "546f2066696e64204f70656e49442070726f766964657273",
+    "didYouKnow": {
+      "title": "Did you know that OpenID discovery can be manual or automatic?",
+      "paragraph": "The OpenID discovery process can either be manual, where the user provides their OpenID identifier, or automatic, where the Relying Party discovers it through other means."
+    }
+  },
+  {
+    "id": 35,
+    "category": "Accessibility",
+    "questionText": "What is the role attribute used for?",
+    "options": [
+      "To define the role of an HTML element",
+      "To assign user roles",
+      "To define CSS styles",
+      "To specify JavaScript functions"
+    ],
+    "correctAnswer": "546f20646566696e652074686520726f6c65206f6620616e2048544d4c20656c656d656e74",
+    "didYouKnow": {
+      "title": "Did you know that the role attribute has predefined values?",
+      "paragraph": "The role attribute has a set of predefined values that indicate the role of an element in the context of a web page. These roles help assistive technologies understand the purpose of each element."
+    }
+  },
+  {
+    "id": 36,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the lang attribute?",
+    "options": [
+      "To specify the language of the content",
+      "To translate the content",
+      "To define language-specific styles",
+      "None of the above"
+    ],
+    "correctAnswer": "546f207370656369667920746865206c616e6775616765206f662074686520636f6e74656e74",
+    "didYouKnow": {
+      "title": "Did you know that the lang attribute helps with accessibility?",
+      "paragraph": "The lang attribute helps screen readers to correctly pronounce text, making the web more accessible for users who rely on assistive technologies."
+    }
+  },
+  {
+    "id": 37,
+    "category": "Accessibility",
+    "questionText": "What does the aria-labelledby attribute do?",
+    "options": [
+      "Defines a string that labels the element",
+      "Points to the ID of the element that labels the current element",
+      "Both A and B",
+      "None of the above"
+    ],
+    "correctAnswer": "506f696e747320746f20746865204944206f662074686520656c656d656e742074686174206c6162656c73207468652063757272656e7420656c656d656e74",
+    "didYouKnow": {
+      "title": "Did you know that aria-labelledby can reference multiple IDs?",
+      "paragraph": "The aria-labelledby attribute can reference multiple IDs, separated by a space. This allows you to label an element using content from multiple elements."
+    }
+  },
+  {
+    "id": 38,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the aria-hidden attribute?",
+    "options": [
+      "To hide content from all users",
+      "To hide content from screen readers",
+      "To hide content from search engines",
+      "None of the above"
+    ],
+    "correctAnswer": "546f206869646520636f6e74656e742066726f6d2073637265656e2072656164657273",
+    "didYouKnow": {
+      "title": "Did you know that aria-hidden doesn't hide content from sighted users?",
+      "paragraph": "The aria-hidden attribute only hides content from screen readers. To hide content visually, you would still need to use CSS."
+    }
+  },
+  {
+    "id": 39,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the aria-describedby attribute?",
+    "options": [
+      "To describe the role of an element",
+      "To provide additional information about an element",
+      "To label an element",
+      "None of the above"
+    ],
+    "correctAnswer": "546f2070726f76696465206164646974696f6e616c20696e666f726d6174696f6e2061626f757420616e20656c656d656e74",
+    "didYouKnow": {
+      "title": "Did you know that aria-describedby can be used for form validation messages?",
+      "paragraph": "The aria-describedby attribute can be used to associate form elements with validation messages, providing a more accessible experience for users."
+    }
+  },
+  {
+    "id": 40,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of JavaScript's Array.map() method?",
+    "options": [
+      "To map keys to values in an object",
+      "To transform each element of an array",
+      "To filter out elements from an array",
+      "None of the above"
+    ],
+    "correctAnswer": "546f207472616e73666f726d206561636820656c656d656e74206f6620616e206172726179",
+    "didYouKnow": {
+      "title": "Did you know that Array.map() returns a new array?",
+      "paragraph": "The Array.map() method creates a new array with the results of calling a provided function on every element in the array. It does not modify the original array."
+    }
+  },
+  {
+    "id": 41,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of JavaScript's Array.reduce() method?",
+    "options": [
+      "To reduce an array to a single value",
+      "To filter out elements from an array",
+      "To transform each element of an array",
+      "To reverse the order of an array"
+    ],
+    "correctAnswer": "546f2072656475636520616e20617272617920746f20612073696e676c652076616c7565",
+    "didYouKnow": {
+      "title": "Did you know that Array.reduce() can take an initial value?",
+      "paragraph": "The Array.reduce() method can take an optional second argument that serves as the initial value for the accumulator."
+    }
+  },
+  {
+    "id": 42,
+    "category": "JavaScript",
+    "questionText": "What is the output of console.log('5' + 3)?",
+    "options": [
+      "\"53\"",
+      "8",
+      "\"8\"",
+      "TypeError"
+    ],
+    "correctAnswer": "22353322",
+    "didYouKnow": {
+      "title": "Did you know that JavaScript performs type coercion?",
+      "paragraph": "In JavaScript, the '+' operator can concatenate strings and numbers, performing type coercion if necessary."
+    }
+  },
+  {
+    "id": 43,
+    "category": "JavaScript",
+    "questionText": "What is the Event Loop in JavaScript?",
+    "options": [
+      "A loop that iterates through all events",
+      "A mechanism that handles asynchronous operations",
+      "A loop that triggers events",
+      "None of the above"
+    ],
+    "correctAnswer": "41206d656368616e69736d20746861742068616e646c6573206173796e6368726f6e6f7573206f7065726174696f6e73",
+    "didYouKnow": {
+      "title": "Did you know that the Event Loop enables non-blocking I/O?",
+      "paragraph": "The Event Loop allows JavaScript to perform non-blocking I/O operations, despite being single-threaded."
+    }
+  },
+  {
+    "id": 44,
+    "category": "JavaScript",
+    "questionText": "What is the difference between null and undefined?",
+    "options": [
+      "null is an object, undefined is a type",
+      "null is a value that represents no value, undefined is a value that hasn't been defined yet",
+      "null can be reassigned, undefined cannot",
+      "There is no difference"
+    ],
+    "correctAnswer": "6e756c6c20697320612076616c7565207468617420726570726573656e7473206e6f2076616c75652c20756e646566696e656420697320612076616c75652074686174206861736e2774206265656e20646566696e656420796574",
+    "didYouKnow": {
+      "title": "Did you know that null and undefined are falsy values?",
+      "paragraph": "Both null and undefined are considered 'falsy' values in JavaScript, but they are not the same."
+    }
+  },
+  {
+    "id": 45,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of the finally block in a try...catch statement?",
+    "options": [
+      "To handle exceptions",
+      "To execute code regardless of an exception being thrown or not",
+      "To define additional conditions",
+      "None of the above"
+    ],
+    "correctAnswer": "546f206578656375746520636f6465207265676172646c657373206f6620616e20657863657074696f6e206265696e67207468726f776e206f72206e6f74",
+    "didYouKnow": {
+      "title": "Did you know that the finally block always executes?",
+      "paragraph": "The code inside the finally block will execute regardless of whether an exception is thrown or caught."
+    }
+  },
+  {
+    "id": 46,
+    "category": "HTML5",
+    "questionText": "What is the purpose of the HTML5 doctype?",
+    "options": [
+      "To specify the HTML version being used",
+      "To enable HTML5 features",
+      "To validate the HTML document",
+      "None of the above"
+    ],
+    "correctAnswer": "546f2073706563696679207468652048544d4c2076657273696f6e206265696e672075736564",
+    "didYouKnow": {
+      "title": "Did you know that the HTML5 doctype is case-insensitive?",
+      "paragraph": "The doctype declaration for HTML5 can be written in uppercase, lowercase, or a mix of both."
+    }
+  },
+  {
+    "id": 47,
+    "category": "HTML5",
+    "questionText": "What is the main function of the <header> element?",
+    "options": [
+      "To create a header for a section or page",
+      "To include meta information",
+      "To define the head of a table",
+      "None of the above"
+    ],
+    "correctAnswer": "546f2063726561746520612068656164657220666f7220612073656374696f6e206f722070616765",
+    "didYouKnow": {
+      "title": "Did you know that the <header> element can be used multiple times?",
+      "paragraph": "The <header> element can be used more than once on a page, for different sections or articles."
+    }
+  },
+  {
+    "id": 48,
+    "category": "HTML5",
+    "questionText": "What does the <aside> element represent?",
+    "options": [
+      "A sidebar",
+      "Content that is tangentially related to the content around it",
+      "An advertisement",
+      "All of the above"
+    ],
+    "correctAnswer": "436f6e74656e7420746861742069732074616e67656e7469616c6c792072656c6174656420746f2074686520636f6e74656e742061726f756e64206974",
+    "didYouKnow": {
+      "title": "Did you know that the <aside> element can be used for different types of content?",
+      "paragraph": "The <aside> element can be used for sidebars, pull quotes, advertising, and more."
+    }
+  },
+  {
+    "id": 49,
+    "category": "HTML5",
+    "questionText": "What is the <mark> element used for?",
+    "options": [
+      "To highlight text",
+      "To mark a section of a page",
+      "To create a bookmark",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20686967686c696768742074657874",
+    "didYouKnow": {
+      "title": "Did you know that the <mark> element is used for marking or highlighting text for reference?",
+      "paragraph": "The <mark> element is commonly used to highlight text for reference or emphasis."
+    }
+  },
+  {
+    "id": 50,
+    "category": "HTML5",
+    "questionText": "What is the purpose of the <time> element?",
+    "options": [
+      "To display the current time",
+      "To define a human-readable date/time",
+      "To create a timer",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20646566696e6520612068756d616e2d7265616461626c6520646174652f74696d65",
+    "didYouKnow": {
+      "title": "Did you know that the <time> element can also represent a time range?",
+      "paragraph": "The <time> element can be used to represent both a single point in time and a range of time."
+    }
+  },
+  {
+    "id": 51,
+    "category": "OpenID",
+    "questionText": "What is the OpenID AX extension?",
+    "options": [
+      "Attribute Exchange",
+      "Authentication Extension",
+      "Access Extension",
+      "None of the above"
+    ],
+    "correctAnswer": "4174747269627574652045786368616e6765",
+    "didYouKnow": {
+      "title": "Did you know that the OpenID AX extension allows for richer user profiles?",
+      "paragraph": "The Attribute Exchange (AX) extension allows for more detailed user profiles by sharing additional attributes."
+    }
+  },
+  {
+    "id": 52,
+    "category": "OpenID",
+    "questionText": "What does the OpenID PAPE extension provide?",
+    "options": [
+      "Password Authentication",
+      "Policy Assurance",
+      "Provider Authentication Policy Extension",
+      "None of the above"
+    ],
+    "correctAnswer": "50726f76696465722041757468656e7469636174696f6e20506f6c69637920457874656e73696f6e",
+    "didYouKnow": {
+      "title": "Did you know that the OpenID PAPE extension enhances security?",
+      "paragraph": "The Provider Authentication Policy Extension (PAPE) allows for additional security measures such as multi-factor authentication."
+    }
+  },
+  {
+    "id": 53,
+    "category": "OpenID",
+    "questionText": "What is the OpenID Hybrid Flow?",
+    "options": [
+      "A combination of Authorization Code and Implicit Flows",
+      "A deprecated OpenID flow",
+      "A flow that uses both OpenID and OAuth",
+      "None of the above"
+    ],
+    "correctAnswer": "4120636f6d62696e6174696f6e206f6620417574686f72697a6174696f6e20436f646520616e6420496d706c6963697420466c6f7773",
+    "didYouKnow": {
+      "title": "Did you know that the OpenID Hybrid Flow is flexible?",
+      "paragraph": "The Hybrid Flow allows for a mix of Authorization Code and Implicit Flows, providing flexibility in authentication and authorization."
+    }
+  },
+  {
+    "id": 54,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the aria-live attribute?",
+    "options": [
+      "To make elements draggable",
+      "To indicate that an element will be updated",
+      "To create live regions",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20637265617465206c69766520726567696f6e73",
+    "didYouKnow": {
+      "title": "Did you know that aria-live can have different values?",
+      "paragraph": "The aria-live attribute can have values like 'off', 'polite', and 'assertive' to control how updates are announced to assistive technologies."
+    }
+  },
+  {
+    "id": 55,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the aria-owns attribute?",
+    "options": [
+      "To indicate ownership of elements",
+      "To create a parent-child relationship between elements",
+      "To indicate that one element controls another",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20637265617465206120706172656e742d6368696c642072656c6174696f6e73686970206265747765656e20656c656d656e7473",
+    "didYouKnow": {
+      "title": "Did you know that aria-owns can change the accessibility tree?",
+      "paragraph": "The aria-owns attribute can be used to change the perceived parent-child relationship in the accessibility tree, without changing the DOM."
+    }
+  },
+  {
+    "id": 56,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of the JavaScript 'bind' method?",
+    "options": [
+      "To bind an event to an element",
+      "To set the 'this' value in a function",
+      "To bind data to a variable",
+      "None of the above"
+    ],
+    "correctAnswer": "546f2073657420746865202774686973272076616c756520696e20612066756e6374696f6e",
+    "didYouKnow": {
+      "title": "Did you know that 'bind' creates a new function?",
+      "paragraph": "The 'bind' method creates a new function with a specified 'this' value, allowing you to easily reuse functions with different contexts."
+    }
+  },
+  {
+    "id": 57,
+    "category": "JavaScript",
+    "questionText": "What is the output of typeof NaN?",
+    "options": [
+      "'number'",
+      "'NaN'",
+      "'undefined'",
+      "'object'"
+    ],
+    "correctAnswer": "276e756d62657227",
+    "didYouKnow": {
+      "title": "Did you know that NaN stands for 'Not-a-Number'?",
+      "paragraph": "Despite its name, the typeof NaN returns 'number'. It's a special value that indicates a missing or undefined numerical result."
+    }
+  },
+  {
+    "id": 58,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of the 'use strict' directive?",
+    "options": [
+      "To enforce stricter parsing and error handling",
+      "To use the latest ECMAScript features",
+      "To improve performance",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20656e666f7263652073747269637465722070617273696e6720616e64206572726f722068616e646c696e67",
+    "didYouKnow": {
+      "title": "Did you know that 'use strict' can catch common coding mistakes?",
+      "paragraph": "The 'use strict' directive helps in catching common coding mistakes and 'unsafe' actions such as defining global variables."
+    }
+  },
+  {
+    "id": 59,
+    "category": "HTML5",
+    "questionText": "What is the purpose of the <canvas> element?",
+    "options": [
+      "To draw graphics via scripting",
+      "To embed multimedia content",
+      "To create forms",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20647261772067726170686963732076696120736372697074696e67",
+    "didYouKnow": {
+      "title": "Did you know that <canvas> is pixel-based?",
+      "paragraph": "The <canvas> element allows you to draw graphics via JavaScript in a pixel-based format. It's great for creating games, graphs, and other visual content."
+    }
+  },
+  {
+    "id": 60,
+    "category": "HTML5",
+    "questionText": "What does the <video> element's 'controls' attribute do?",
+    "options": [
+      "Automatically plays the video",
+      "Provides play, pause, and volume controls",
+      "Sets the video dimensions",
+      "None of the above"
+    ],
+    "correctAnswer": "50726f766964657320706c61792c2070617573652c20616e6420766f6c756d6520636f6e74726f6c73",
+    "didYouKnow": {
+      "title": "Did you know that the 'controls' attribute is optional?",
+      "paragraph": "The 'controls' attribute is optional but recommended, as it provides the user with play, pause, and volume controls."
+    }
+  },
+  {
+    "id": 61,
+    "category": "OpenID",
+    "questionText": "What is the OpenID 'End Session Endpoint'?",
+    "options": [
+      "An endpoint to log out the user",
+      "An endpoint to end the OpenID session",
+      "Both A and B",
+      "None of the above"
+    ],
+    "correctAnswer": "426f7468204120616e642042",
+    "didYouKnow": {
+      "title": "Did you know that the 'End Session Endpoint' can revoke tokens?",
+      "paragraph": "The OpenID 'End Session Endpoint' can also be used to revoke access tokens, providing a more secure logout process."
+    }
+  },
+  {
+    "id": 62,
+    "category": "OpenID",
+    "questionText": "What is the OpenID 'Userinfo Endpoint'?",
+    "options": [
+      "An endpoint to retrieve user information",
+      "An endpoint to update user information",
+      "An endpoint to delete user information",
+      "None of the above"
+    ],
+    "correctAnswer": "416e20656e64706f696e7420746f207265747269657665207573657220696e666f726d6174696f6e",
+    "didYouKnow": {
+      "title": "Did you know that the 'Userinfo Endpoint' is often protected?",
+      "paragraph": "The OpenID 'Userinfo Endpoint' is usually protected to ensure that only authorized clients can access the user's information."
+    }
+  },
+  {
+    "id": 63,
+    "category": "OpenID",
+    "questionText": "What does the OpenID 'prompt' parameter control?",
+    "options": [
+      "The UI language",
+      "The user interaction type",
+      "The authentication method",
+      "None of the above"
+    ],
+    "correctAnswer": "546865207573657220696e746572616374696f6e2074797065",
+    "didYouKnow": {
+      "title": "Did you know that the 'prompt' parameter can have multiple values?",
+      "paragraph": "The OpenID 'prompt' parameter can accept multiple values like 'none', 'login', and 'consent' to control the user interaction."
+    }
+  },
+  {
+    "id": 64,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the 'tabindex' attribute?",
+    "options": [
+      "To set the tab order of elements",
+      "To add a tab character",
+      "To create a tab panel",
+      "None of the above"
+    ],
+    "correctAnswer": "546f207365742074686520746162206f72646572206f6620656c656d656e7473",
+    "didYouKnow": {
+      "title": "Did you know that 'tabindex' can have negative values?",
+      "paragraph": "A 'tabindex' value of -1 makes an element focusable but not reachable via keyboard navigation."
+    }
+  },
+  {
+    "id": 65,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the 'aria-labelledby' attribute?",
+    "options": [
+      "To label an element",
+      "To describe an element",
+      "To indicate the element's role",
+      "None of the above"
+    ],
+    "correctAnswer": "546f206c6162656c20616e20656c656d656e74",
+    "didYouKnow": {
+      "title": "Did you know that 'aria-labelledby' can reference multiple elements?",
+      "paragraph": "The 'aria-labelledby' attribute can reference multiple elements by using their IDs, separated by spaces."
+    }
+  },
+  {
+    "id": 66,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the 'aria-describedby' attribute?",
+    "options": [
+      "To label an element",
+      "To describe an element",
+      "To indicate the element's role",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20646573637269626520616e20656c656d656e74",
+    "didYouKnow": {
+      "title": "Did you know that 'aria-describedby' can be used for form validation?",
+      "paragraph": "The 'aria-describedby' attribute can be used to associate form elements with validation error messages."
+    }
+  },
+  {
+    "id": 67,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of JavaScript's 'instanceof' operator?",
+    "options": [
+      "To check if an object is an instance of a particular class",
+      "To create a new instance of a class",
+      "To compare two instances",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20636865636b20696620616e206f626a65637420697320616e20696e7374616e6365206f66206120706172746963756c617220636c617373",
+    "didYouKnow": {
+      "title": "Did you know that 'instanceof' works for built-in types?",
+      "paragraph": "The 'instanceof' operator can be used to check if an object is an instance of built-in types like Array, Function, and Date."
+    }
+  },
+  {
+    "id": 68,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of the 'void' operator in JavaScript?",
+    "options": [
+      "To declare a variable",
+      "To indicate that a function does not return a value",
+      "To evaluate an expression without returning a value",
+      "None of the above"
+    ],
+    "correctAnswer": "546f206576616c7561746520616e2065787072657373696f6e20776974686f75742072657475726e696e6720612076616c7565",
+    "didYouKnow": {
+      "title": "Did you know that 'void' is often used in bookmarklets?",
+      "paragraph": "The 'void' operator is commonly used in bookmarklets to ensure that the script does not affect the current page content."
+    }
+  },
+  {
+    "id": 69,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of the 'delete' operator in JavaScript?",
+    "options": [
+      "To remove a property from an object",
+      "To delete a variable",
+      "To delete an element from an array",
+      "None of the above"
+    ],
+    "correctAnswer": "546f2072656d6f766520612070726f70657274792066726f6d20616e206f626a656374",
+    "didYouKnow": {
+      "title": "Did you know that 'delete' doesn't affect built-in properties?",
+      "paragraph": "The 'delete' operator can remove user-defined properties, but it cannot remove properties that are built into the language."
+    }
+  },
+  {
+    "id": 70,
+    "category": "HTML5",
+    "questionText": "What is the purpose of the 'download' attribute in HTML5?",
+    "options": [
+      "To download a file",
+      "To indicate that a link should download a file",
+      "To specify the file format",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20696e64696361746520746861742061206c696e6b2073686f756c6420646f776e6c6f616420612066696c65",
+    "didYouKnow": {
+      "title": "Did you know that the 'download' attribute can specify a file name?",
+      "paragraph": "The 'download' attribute can take an optional value to specify the name of the file to be downloaded."
+    }
+  },
+  {
+    "id": 71,
+    "category": "HTML5",
+    "questionText": "What is the purpose of the 'hidden' attribute in HTML5?",
+    "options": [
+      "To hide an element",
+      "To indicate that an element is not yet relevant",
+      "Both A and B",
+      "None of the above"
+    ],
+    "correctAnswer": "426f7468204120616e642042",
+    "didYouKnow": {
+      "title": "Did you know that the 'hidden' attribute is a boolean attribute?",
+      "paragraph": "The 'hidden' attribute is a boolean attribute, meaning its mere presence implies 'true', regardless of its value."
+    }
+  },
+  {
+    "id": 72,
+    "category": "HTML5",
+    "questionText": "What is the purpose of the 'autofocus' attribute in HTML5?",
+    "options": [
+      "To automatically focus an element",
+      "To enable auto-completion",
+      "To automatically submit a form",
+      "None of the above"
+    ],
+    "correctAnswer": "546f206175746f6d61746963616c6c7920666f63757320616e20656c656d656e74",
+    "didYouKnow": {
+      "title": "Did you know that 'autofocus' can improve user experience?",
+      "paragraph": "The 'autofocus' attribute can improve user experience by automatically focusing on a particular form field, making it easier for the user to start inputting data."
+    }
+  },
+  {
+    "id": 73,
+    "category": "OpenID",
+    "questionText": "What is the OpenID 'Discovery' process?",
+    "options": [
+      "A process to discover OpenID providers",
+      "A process to discover user information",
+      "A process to discover available services",
+      "None of the above"
+    ],
+    "correctAnswer": "412070726f6365737320746f20646973636f766572204f70656e49442070726f766964657273",
+    "didYouKnow": {
+      "title": "Did you know that OpenID Discovery is also known as WebFinger?",
+      "paragraph": "The OpenID Discovery process is often referred to as WebFinger, which is a protocol used for discovering information about entities on the web."
+    }
+  },
+  {
+    "id": 74,
+    "category": "OpenID",
+    "questionText": "What is the OpenID 'Dynamic Client Registration'?",
+    "options": [
+      "A process to register new OpenID clients dynamically",
+      "A process to update client information",
+      "A process to delete client information",
+      "None of the above"
+    ],
+    "correctAnswer": "412070726f6365737320746f207265676973746572206e6577204f70656e494420636c69656e74732064796e616d6963616c6c79",
+    "didYouKnow": {
+      "title": "Did you know that Dynamic Client Registration simplifies client management?",
+      "paragraph": "The OpenID Dynamic Client Registration allows for easier management of client information by enabling dynamic registration of new clients."
+    }
+  },
+  {
+    "id": 75,
+    "category": "OpenID",
+    "questionText": "What is the OpenID 'Token Introspection'?",
+    "options": [
+      "A process to validate tokens",
+      "A process to decode tokens",
+      "A process to revoke tokens",
+      "None of the above"
+    ],
+    "correctAnswer": "412070726f6365737320746f2076616c696461746520746f6b656e73",
+    "didYouKnow": {
+      "title": "Did you know that Token Introspection can be used by resource servers?",
+      "paragraph": "The OpenID Token Introspection is often used by resource servers to validate access tokens before allowing access to protected resources."
+    }
+  },
+  {
+    "id": 76,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the 'aria-haspopup' attribute?",
+    "options": [
+      "To indicate that an element triggers a popup",
+      "To create a popup",
+      "To close a popup",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20696e646963617465207468617420616e20656c656d656e74207472696767657273206120706f707570",
+    "didYouKnow": {
+      "title": "Did you know that 'aria-haspopup' can have different values?",
+      "paragraph": "The 'aria-haspopup' attribute can have values like 'true', 'false', 'menu', 'listbox', 'tree', 'grid', or 'dialog' to indicate the type of popup."
+    }
+  },
+  {
+    "id": 77,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the 'aria-invalid' attribute?",
+    "options": [
+      "To indicate that an element is invalid",
+      "To validate user input",
+      "To indicate that an element is disabled",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20696e646963617465207468617420616e20656c656d656e7420697320696e76616c6964",
+    "didYouKnow": {
+      "title": "Did you know that 'aria-invalid' can have different values?",
+      "paragraph": "The 'aria-invalid' attribute can have values like 'true', 'false', 'grammar', or 'spelling' to indicate the type of error."
+    }
+  },
+  {
+    "id": 78,
+    "category": "Accessibility",
+    "questionText": "What is the purpose of the 'aria-activedescendant' attribute?",
+    "options": [
+      "To indicate the currently active element",
+      "To describe an active element",
+      "To activate an element",
+      "None of the above"
+    ],
+    "correctAnswer": "546f20696e646963617465207468652063757272656e746c792061637469766520656c656d656e74",
+    "didYouKnow": {
+      "title": "Did you know that 'aria-activedescendant' changes dynamically?",
+      "paragraph": "The 'aria-activedescendant' attribute is often changed dynamically through scripting to indicate the currently active element within a composite widget."
+    }
+  },
+  {
+    "id": 79,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of JavaScript's 'finally' block?",
+    "options": [
+      "To execute code after a try-catch block",
+      "To handle exceptions",
+      "To finalize an object",
+      "None of the above"
+    ],
+    "correctAnswer": "546f206578656375746520636f64652061667465722061207472792d636174636820626c6f636b",
+    "didYouKnow": {
+      "title": "Did you know that the 'finally' block always executes?",
+      "paragraph": "The 'finally' block is executed regardless of whether an exception is thrown or caught, making it useful for cleanup tasks."
+    }
+  },
+  {
+    "id": 80,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of JavaScript's 'reduce' method?",
+    "options": [
+      "To reduce an array to a single value",
+      "To filter an array",
+      "To transform an array",
+      "None of the above"
+    ],
+    "correctAnswer": "546f2072656475636520616e20617272617920746f20612073696e676c652076616c7565",
+    "didYouKnow": {
+      "title": "Did you know that 'reduce' is a higher-order function?",
+      "paragraph": "The 'reduce' method is a higher-order function that takes a callback function as an argument, making it a powerful tool for array manipulation."
+    }
+  },
+  {
+    "id": 81,
+    "category": "JavaScript",
+    "questionText": "What is the purpose of JavaScript's 'apply' method?",
+    "options": [
+      "To apply a function to an object",
+      "To set the 'this' value in a function",
+      "Both A and B",
+      "None of the above"
+    ],
+    "correctAnswer": "426f7468204120616e642042",
+    "didYouKnow": {
+      "title": "Did you know that 'apply' can take an array of arguments?",
+      "paragraph": "The 'apply' method allows you to pass an array of arguments to the function, making it useful for functions that accept a variable number of arguments."
+    }
+  },
+  {
+    "id": 82,
+    "category": "HTML5",
+    "questionText": "What is the purpose of the 'sandbox' attribute in HTML5?",
+    "options": [
+      "To create a sandboxed environment",
+      "To restrict the behavior of an iframe",
+      "Both A and B",
+      "None of the above"
+    ],
+    "correctAnswer": "426f7468204120616e642042",
+    "didYouKnow": {
+      "title": "Did you know that the 'sandbox' attribute enhances security?",
+      "paragraph": "The 'sandbox' attribute restricts the behavior of an iframe, making it useful for creating sandboxed environments."
+    }
+  }
+]

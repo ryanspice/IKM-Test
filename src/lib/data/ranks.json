@@ -1,0 +1,202 @@
+[
+	{
+		"rank": "Just starting out",
+		"percentageRange": "0-2%"
+	},
+	{
+		"rank": "More bugs than code",
+		"percentageRange": "2-4%"
+	},
+	{
+		"rank": "Ctrl+C, Ctrl+V is your best friend",
+		"percentageRange": "4-6%"
+	},
+	{
+		"rank": "You've asked your first question",
+		"percentageRange": "6-8%"
+	},
+	{
+		"rank": "console.log is your debugging tool",
+		"percentageRange": "8-10%"
+	},
+	{
+		"rank": "Your code is pretty, at least",
+		"percentageRange": "10-12%"
+	},
+	{
+		"rank": "You've discovered Git",
+		"percentageRange": "12-14%"
+	},
+	{
+		"rank": "Master of the .reverse() method",
+		"percentageRange": "14-16%"
+	},
+	{
+		"rank": "You've heard of recursion",
+		"percentageRange": "16-18%"
+	},
+	{
+		"rank": "You can serialize like a pro",
+		"percentageRange": "18-20%"
+	},
+	{
+		"rank": "You've been through callback hell and back",
+		"percentageRange": "20-22%"
+	},
+	{
+		"rank": "You've used a regular expression and understood it",
+		"percentageRange": "22-24%"
+	},
+	{
+		"rank": "You've mastered callbacks and promises",
+		"percentageRange": "24-26%"
+	},
+	{
+		"rank": "You know where to keep your secrets",
+		"percentageRange": "26-28%"
+	},
+	{
+		"rank": "The DOM bends to your will",
+		"percentageRange": "28-30%"
+	},
+	{
+		"rank": "Fetching data like a pro",
+		"percentageRange": "30-32%"
+	},
+	{
+		"rank": "Your commits are always perfect",
+		"percentageRange": "32-34%"
+	},
+	{
+		"rank": "Media queries bow before you",
+		"percentageRange": "34-36%"
+	},
+	{
+		"rank": "You have a favorite framework and defend it fiercely",
+		"percentageRange": "36-38%"
+	},
+	{
+		"rank": "You understand the request-response cycle",
+		"percentageRange": "38-40%"
+	},
+	{
+		"rank": "SQL Query Sorcerer",
+		"percentageRange": "40-42%"
+	},
+	{
+		"rank": "AI Alchemist",
+		"percentageRange": "42-44%"
+	},
+	{
+		"rank": "Blockchain Whisperer",
+		"percentageRange": "44-46%"
+	},
+	{
+		"rank": "DevOps Guru",
+		"percentageRange": "46-48%"
+	},
+	{
+		"rank": "Container Captain",
+		"percentageRange": "48-50%"
+	},
+	{
+		"rank": "Serverless Sorcerer",
+		"percentageRange": "50-52%"
+	},
+	{
+		"rank": "Cloud Computing Conqueror",
+		"percentageRange": "52-54%"
+	},
+	{
+		"rank": "Machine Learning Maestro",
+		"percentageRange": "54-56%"
+	},
+	{
+		"rank": "Cybersecurity Sentinel",
+		"percentageRange": "56-58%"
+	},
+	{
+		"rank": "Data Science Dynamo",
+		"percentageRange": "58-60%"
+	},
+	{
+		"rank": "Full Stack Sensei",
+		"percentageRange": "60-62%"
+	},
+	{
+		"rank": "UI/UX Virtuoso",
+		"percentageRange": "62-64%"
+	},
+	{
+		"rank": "Product Manager Prodigy",
+		"percentageRange": "64-66%"
+	},
+	{
+		"rank": "Tech Evangelist Extraordinaire",
+		"percentageRange": "66-68%"
+	},
+	{
+		"rank": "Coding Architect",
+		"percentageRange": "68-70%"
+	},
+	{
+		"rank": "Innovation Visionary",
+		"percentageRange": "70-72%"
+	},
+	{
+		"rank": "Tech Industry Titan",
+		"percentageRange": "72-74%"
+	},
+	{
+		"rank": "Digital Transformation Trailblazer",
+		"percentageRange": "74-76%"
+	},
+	{
+		"rank": "AI Ethics Advocate",
+		"percentageRange": "76-78%"
+	},
+	{
+		"rank": "Quantum Computing Pioneer",
+		"percentageRange": "78-80%"
+	},
+	{
+		"rank": "Blockchain Believer",
+		"percentageRange": "80-82%"
+	},
+	{
+		"rank": "DevOps Devotee",
+		"percentageRange": "82-84%"
+	},
+	{
+		"rank": "Container Commander",
+		"percentageRange": "84-86%"
+	},
+	{
+		"rank": "Serverless Sorcerer",
+		"percentageRange": "86-88%"
+	},
+	{
+		"rank": "Cloud Computing Conqueror",
+		"percentageRange": "88-90%"
+	},
+	{
+		"rank": "Machine Learning Maestro",
+		"percentageRange": "90-92%"
+	},
+	{
+		"rank": "Cybersecurity Champion",
+		"percentageRange": "92-94%"
+	},
+	{
+		"rank": "Data Science Dynamo",
+		"percentageRange": "94-96%"
+	},
+	{
+		"rank": "Full Stack Guru",
+		"percentageRange": "96-98%"
+	},
+	{
+		"rank": "UI/UX Artist",
+		"percentageRange": "98-100%"
+	}
+]

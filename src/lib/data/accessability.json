@@ -1,0 +1,182 @@
+[
+	{
+		"id": 101,
+		"category": "Accessibility",
+		"questionText": "In what scenarios would you use the aria-labelledby attribute over the aria-label attribute?",
+		"options": [
+			"When the label text is complex",
+			"When the label text is simple",
+			"When the label text is dynamic",
+			"When the label text is static"
+		],
+		"correctAnswer": "V2hlbiB0aGUgbGFiZWwgdGV4dCBpcyBjb21wbGV4"
+	},
+	{
+		"id": 102,
+		"category": "Accessibility",
+		"questionText": "How does the value of the aria-haspopup attribute affect the behavior of assistive technologies?",
+		"options": [
+			"Changes announcement timing",
+			"Indicates type of popup",
+			"Triggers automatic focus",
+			"None of the above"
+		],
+		"correctAnswer": "SW5kaWNhdGVzIHR5cGUgb2YgcG9wdXA="
+	},
+	{
+		"id": 103,
+		"category": "Accessibility",
+		"questionText": "What are the implications of setting a tabindex value greater than 0?",
+		"options": [
+			"Overrides natural tab order",
+			"Disables keyboard navigation",
+			"Improves screen reader output",
+			"None of the above"
+		],
+		"correctAnswer": "T3ZlcnJpZGVzIG5hdHVyYWwgdGFiIG9yZGVy"
+	},
+	{
+		"id": 104,
+		"category": "Accessibility",
+		"questionText": "How does semantic HTML differ from presentational HTML, and why is it important for accessibility?",
+		"options": [
+			"Semantic HTML is more verbose",
+			"Semantic HTML conveys meaning",
+			"Presentational HTML is outdated",
+			"Presentational HTML is more accessible"
+		],
+		"correctAnswer": "U2VtYW50aWMgSFRNTCBjb252ZXlzIG1lYW5pbmc="
+	},
+	{
+		"id": 105,
+		"category": "Accessibility",
+		"questionText": "How can the aria-describedby attribute be used in conjunction with form validation?",
+		"options": [
+			"To provide error messages",
+			"To indicate required fields",
+			"To hide form elements",
+			"None of the above"
+		],
+		"correctAnswer": "VG8gcHJvdmlkZSBlcnJvciBtZXNzYWdlcw=="
+	},
+	{
+		"id": 106,
+		"category": "Accessibility",
+		"questionText": "What are the different values that aria-live can take, and how do they affect the announcement timing?",
+		"options": [
+			"off, polite, assertive",
+			"true, false",
+			"hidden, visible",
+			"None of the above"
+		],
+		"correctAnswer": "b2ZmLCBwb2xpdGUsIGFzc2VydGl2ZQ=="
+	},
+	{
+		"id": 107,
+		"category": "Accessibility",
+		"questionText": "What are some limitations of ARIA that developers should be aware of?",
+		"options": [
+			"Cannot fix bad semantics",
+			"Not supported by all browsers",
+			"Can be verbose",
+			"All of the above"
+		],
+		"correctAnswer": "Q2Fubm90IGZpeCBiYWQgc2VtYW50aWNz"
+	},
+	{
+		"id": 108,
+		"category": "Accessibility",
+		"questionText": "Can you give an example where the role attribute would be necessary despite using semantic HTML elements?",
+		"options": [
+			"When using a custom dropdown",
+			"When using a native HTML button",
+			"When using HTML5 doctype",
+			"None of the above"
+		],
+		"correctAnswer": "V2hlbiB1c2luZyBhIGN1c3RvbSBkcm9wZG93bg=="
+	},
+	{
+		"id": 109,
+		"category": "Accessibility",
+		"questionText": "What are the potential pitfalls of using the aria-hidden attribute incorrectly?",
+		"options": [
+			"Hides content from all users",
+			"Breaks keyboard navigation",
+			"Confuses screen reader users",
+			"All of the above"
+		],
+		"correctAnswer": "Q29uZnVzZXMgc2NyZWVuIHJlYWRlciB1c2Vycw=="
+	},
+	{
+		"id": 110,
+		"category": "Accessibility",
+		"questionText": "What are the key differences between WCAG 2.0 and WCAG 2.1?",
+		"options": [
+			"WCAG 2.1 has more guidelines",
+			"WCAG 2.0 is outdated",
+			"WCAG 2.1 focuses on mobile accessibility",
+			"All of the above"
+		],
+		"correctAnswer": "QWxsIG9mIHRoZSBhYm92ZQ=="
+	},
+	{
+		"id": 111,
+		"category": "Accessibility",
+		"questionText": "How does the aria-owns attribute affect the accessibility tree?",
+		"options": [
+			"Changes parent-child relationship",
+			"Adds new nodes",
+			"Removes existing nodes",
+			"None of the above"
+		],
+		"correctAnswer": "Q2hhbmdlcyBwYXJlbnQtY2hpbGQgcmVsYXRpb25zaGlw"
+	},
+	{
+		"id": 112,
+		"category": "Accessibility",
+		"questionText": "How would you dynamically update the aria-activedescendant attribute in a single-page application?",
+		"options": [
+			"Using JavaScript",
+			"Using CSS",
+			"Using HTML",
+			"None of the above"
+		],
+		"correctAnswer": "VXNpbmcgSmF2YVNjcmlwdA=="
+	},
+	{
+		"id": 113,
+		"category": "Accessibility",
+		"questionText": "How does setting the lang attribute at different levels of an HTML document affect screen readers?",
+		"options": [
+			"Changes pronunciation",
+			"Changes reading speed",
+			"Changes voice",
+			"None of the above"
+		],
+		"correctAnswer": "Q2hhbmdlcyBwcm9udW5jaWF0aW9u"
+	},
+	{
+		"id": 114,
+		"category": "Accessibility",
+		"questionText": "How does the alt attribute contribute to both accessibility and SEO?",
+		"options": [
+			"Improves image search ranking",
+			"Provides text description for screen readers",
+			"Both A and B",
+			"None of the above"
+		],
+		"correctAnswer": "Qm90aCBBI...=="
+	},
+	{
+		"id": 115,
+		"category": "Accessibility",
+		"questionText": "How can the aria-invalid attribute be used to indicate different types of errors?",
+		"options": [
+			"Using values like true, false, grammar, spelling",
+			"Using values like on, off",
+			"Using values like 1, 0",
+			"None of the above"
+		],
+		"correctAnswer": "VXNpbmcgdmFsdWVzIGxpa2UgdHJ1ZSwgZmFsc2UsIGdyYW1tYXIsIHNwZWxsaW5n"
+	}
+]
